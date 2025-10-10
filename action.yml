@@ -28,4 +28,4 @@ runs:
       shell: bash
       run: |
         echo "Running remove-solutions.py..."
-        python remove-solutions.py
+        python ${GITHUB_ACTION_PATH}/remove-solutions.py
